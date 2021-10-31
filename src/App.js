@@ -1,6 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import About from './Pages/About/About';
 import AddService from './Pages/AddService/AddService';
 import Booking from './Pages/Booking/Booking/Booking';
 import Experts from './Pages/Home/Experts/Experts';
@@ -64,6 +65,12 @@ function App() {
     <Route path='/experts'>
 
     <Experts></Experts>
+
+    </Route>
+
+    <Route path='/about'>
+
+    <About></About>
 
     </Route>
 

@@ -16,9 +16,8 @@ const Footer = () => {
                         <div className="links">
                             <Link to="/home">Home</Link>
                             <Link to="/about">About</Link>
-                            <Link to="/services">All Service</Link>
-                            <Link to="/doctors">Doctors</Link>
-                            <Link to="/blogs">Blogs</Link>
+                            <Link to="/services">Service</Link>
+                            <Link to="/doctors">Employees</Link>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 col-sm-12">
