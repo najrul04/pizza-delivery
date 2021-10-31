@@ -1,4 +1,4 @@
-# General Hospital
+# Pizza Delivery
 
 This project was Created with the help of Bootstrap, React, Vanilla CSS, React Router, React Bootstrap, MongoDB, Heroku [Pizza Delivery Firebase Link](https://pizza-delivery-ea5ce.web.app/).
 
