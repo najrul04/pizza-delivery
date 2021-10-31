@@ -6,7 +6,7 @@ const Events = () => {
         <div className="events-area my-4">
             <div className="container">
                 <div className="text-center mb-5">
-                    <h1 className="heading mb-3">Upcoming <span>Events</span></h1>
+                    <h1 className="heading my-5 text-danger">Upcoming Events</h1>
                 </div>
                 <div className="row row-cols-lg-3 row-cols-md-2 row-cols-1 g-5">
                     <div className="col">
