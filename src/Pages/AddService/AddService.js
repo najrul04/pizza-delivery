@@ -11,7 +11,7 @@ const AddService = () => {
 
         console.log(data);
 
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://spooky-shadow-14109.herokuapp.com/services', data)
         .then(res => {
             
             if(res.data.insertedId){
