@@ -3,6 +3,7 @@ import { useParams } from 'react-router';
 
 const Booking = () => {
 
+
     const {serviceId} = useParams()
     const [service, setService] = useState({})
 
@@ -16,6 +17,7 @@ const Booking = () => {
 
     return (
         <div>
+        
             <h2>Details of: {service.name}</h2>
             <h2>This is Booking: {serviceId}</h2>
         </div>

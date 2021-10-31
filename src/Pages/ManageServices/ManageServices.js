@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './ManageServices.css'
 
 const ManageServices = () => {
 
@@ -38,13 +39,16 @@ const ManageServices = () => {
     }
 
     return (
-        <div>
-            <h1>This is Manage Services</h1>
+        <div className="remove_items">
+            <h1 className='text-danger mb-5'>Remove Items</h1>
             {
 
                 services.map(service => <div key={service._id}>
                     <h3>{service.name}</h3>
-                    <button onClick = {() => handleDelete(service._id)}>Delete</button>
+                    <img src={service.img} alt="" />
+                    <h5 className="py-3">Price: {service.price}</h5>
+                    <p className="px-3">{service.description}</p>
+                    <button className='btn rounded btn-danger my-3' onClick = {() => handleDelete(service._id)}>Delete</button>
                 </div> )
 
             }

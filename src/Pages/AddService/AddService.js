@@ -26,8 +26,8 @@ const AddService = () => {
     }
 
     return (
-        <div className="add_service">
-            <h2>Please Add A Service</h2>
+        <div className="add_service py-5 my-5">
+            <h2>Place An Order</h2>
             <form onSubmit={handleSubmit(onSubmit)}>
             <input {...register("name", { required: true, maxLength: 50 })} placeholder="Name" />
             <textarea {...register("description")} placeholder="Description" />

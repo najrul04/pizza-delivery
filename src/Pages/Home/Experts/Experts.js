@@ -39,8 +39,8 @@ const experts = [
 const Experts = () => {
     return (
         <div id="experts" className="container">
-            <h1 className='text-danger mt-5'>Delivery Men</h1>
-            <div className='row'>
+            <h1 className='text-danger my-3'>Employees</h1>
+            <div className='row my-3'>
 
                 {
 
