@@ -46,7 +46,7 @@ const ManageServices = () => {
                 services.map(service => <div key={service._id}>
                     <h3>{service.name}</h3>
                     <img src={service.img} alt="" />
-                    <h5 className="py-3">Price: {service.price}</h5>
+                    <h5 className="py-3">Price: ${service.price}</h5>
                     <p className="px-3">{service.description}</p>
                     <button className='btn rounded btn-danger my-3' onClick = {() => handleDelete(service._id)}>Delete</button>
                 </div> )
