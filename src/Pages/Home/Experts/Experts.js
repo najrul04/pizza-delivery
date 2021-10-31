@@ -1,38 +1,38 @@
 import React from 'react';
 
-import mechanic1 from '../../../images/mechanic/mechanic-1.jpg'
-import mechanic2 from '../../../images/mechanic/mechanic-2.jpg'
-import mechanic3 from '../../../images/mechanic/mechanic-3.jpg'
-import mechanic4 from '../../../images/mechanic/mechanic-4.jpg'
+import deliveryMan1 from '../../../images/deliverymen/deliverymen-1.jpg'
+import deliveryMan2 from '../../../images/deliverymen/deliverymen-2.jpg'
+import deliveryMan3 from '../../../images/deliverymen/deliverymen-3.jpg'
+import deliveryMan4 from '../../../images/deliverymen/deliverymen-4.jpg'
 import Expert from '../Expert/Expert';
 
 const experts = [
     {
-        img: mechanic1,
-        name: 'Andrew Smith',
-        expertize: '-Engine Expert-'
+        img: deliveryMan1,
+        name: 'Steven S. Stroud',
+        role: 'Delivery Man'
     },
     {
-        img: mechanic2,
-        name: 'John Anderson',
-        expertize: '-Polish Expert-'
+        img: deliveryMan2,
+        name: 'Patrick R. Carter',
+        role: 'Packaging'
     },
     {
-        img: mechanic3,
-        name: 'Zakaria Smith',
-        expertize: '-Coloring Expert-'
+        img: deliveryMan3,
+        name: 'Antonio I. McEachern',
+        role: 'Production'
     },
     {
-        img: mechanic4,
-        name: 'Sakib Anderson',
-        expertize: '-Alrounder Expert-'
+        img: deliveryMan4,
+        name: 'Luke R. McGuire',
+        role: 'Driver'
     },
 ]
 
 const Experts = () => {
     return (
         <div id="experts" className="container">
-            <h1 className='text-primary mt-5'>Our Experts</h1>
+            <h1 className='text-danger mt-5'>Delivery Men</h1>
             <div className='row'>
 
                 {
