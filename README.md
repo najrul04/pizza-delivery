@@ -19,3 +19,9 @@ This website is created to let people know about Pizza Delivery and let them kno
 * Easy to Access to our services and get help from us.
 
 * A minimum overview of our field of work.
+
+* The system which will help you to register, Log in & Log Out are added.
+
+* After logging in more options will be available.
+
+* You can press button to add the box.
